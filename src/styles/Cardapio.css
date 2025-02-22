@@ -2,5 +2,6 @@
     background-color: #eee;
     display: flex;
     align-items: center;
-
+    color: black;
+    flex-direction: column;
 }
