@@ -1,13 +1,12 @@
 import React from 'react';
-//import Navegacao from '../components/Navegacao';
-import ExibicaoProdutos from '../components/ExibicaoProdutos';
+import ProductList from '../components/ProductList';
+import '../styles/Cardapio.css';
 
 const Cardapio = () => {
   return (
-    <div>
-      {/*<Navegacao />*/}
+    <div className='cardapio' >
       <h1>Cardápio</h1>
-      <ExibicaoProdutos />
+      <ProductList />
     </div>
   );
 };

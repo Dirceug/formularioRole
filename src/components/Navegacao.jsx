@@ -15,6 +15,7 @@ const Navegacao = () => {
       <BotaoNavegacao to="/home">Home</BotaoNavegacao>
       <BotaoNavegacao to="/cardapio">Cardápio</BotaoNavegacao>
       <BotaoNavegacao to="/pix">PIX</BotaoNavegacao>
+      <BotaoNavegacao to="/comanda">Comanda</BotaoNavegacao>
     </nav>
   );
 };
