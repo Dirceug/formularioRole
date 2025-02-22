@@ -11,28 +11,21 @@ Currently, two official plugins are available:
 
 
 FORMULARIOROLE2/
+├── dist/                # Diretório de build (ou "build")
+│   ├── index.html       # Arquivo de entrada após build
+│   ├── assets/          # Outros arquivos estáticos
+│   └── ...              # Outros arquivos gerados pelo build
 ├── src/
 │   ├── components/
-│   │   ├── FormularioCadastro.jsx
-│   │   ├── ExibicaoProdutos.jsx
-│   │   ├── PedidosFeitos.jsx
-│   │   ├── InsercaoPix.jsx
-│   │   ├── Login.jsx
-│   │   └── Navegacao.jsx
-│   ├── pages/            # Componentes de página (rotas)
-│   │   ├── Cadastro.jsx   # Wrapper para FormularioCadastro
-│   │   ├── Cardapio.jsx   # Wrapper para ExibicaoProdutos
-│   │   ├── Comanda.jsx # Wrapper para ExibicaoProdutosFeitos
-│   │   ├── Pix.jsx # Wrapper para InsercaoPix
-│   │   └── Home.jsx # Wrapper para Login
-│   ├── App.jsx            # Componente principal (rotas)
-│   ├── main.jsx           # Ponto de entrada
-│   ├── index.css          # Estilos globais
-│   └── routes/            # Arquivo de rotas
-│       └── routes.jsx
-├── firebase.js            # Arquivo de configuração do firebase
-│    
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── routes/
+├── firebase.json        # Configuração do Firebase Hosting
+├── firestore.rules      # Regras do Firestore
+├── firestore.indexes.json # Indexes do Firestore
 ├── public/
-│   └── index.html
-├── vite.config.js       # Configuração do Vite
-├── package.json         # Dependências do projeto
+│   └── index.html       # Arquivo de entrada original (não utilizado no build)
+├── vite.config.js
+├── package.json
