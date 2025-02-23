@@ -84,3 +84,10 @@ const noiteDaFogazza = [
     estoque: 50,
   },
 ];
+
+    1.679.616 usuários com um hash de 4 caracteres.
+   60.466.176 usuários com um hash de 5 caracteres.
+2.176.782.336 usuários com um hash de 6 caracteres.
+
+Separação visual: Divida o hash em grupos menores usando espaços, hífens ou pontos. Por exemplo: ABC-123, A1B2C3, AB.C1.23.
+Grupos de 2 ou 3: Geralmente, agrupar em conjuntos de 2 ou 3 caracteres é o ideal para facilitar a leitura e memorização.

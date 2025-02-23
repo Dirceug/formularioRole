@@ -1,11 +1,17 @@
 .product-card {
+    background-color: #eee;
     display: flex;
     align-items: center;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 50px;
     padding: 16px;
     margin: 16px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .product-card:hover {
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
   }
   
   .product-image img {

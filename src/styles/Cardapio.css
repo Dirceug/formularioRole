@@ -4,4 +4,5 @@
     align-items: center;
     color: black;
     flex-direction: column;
+    justify-content: center;
 }

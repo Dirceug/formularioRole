@@ -1,0 +1,33 @@
+/* Estilos para o componente App */
+
+/* Garantir que a página inteira ocupe 100% da altura e largura */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo para a página */
+  }
+  
+  /* Garantir que o root ocupe 100% da altura e largura */
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Container principal do App */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+    padding: 20px;
+    box-sizing: border-box;
+  }
